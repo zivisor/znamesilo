@@ -1,4 +1,5 @@
 <?php
+include("znamesilo.class.php");
 znamesilo::init();
 $znamesilo->KEY = 'Enter your API key';
 $znamesilo->debug = false;
